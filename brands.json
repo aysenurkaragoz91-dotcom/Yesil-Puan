@@ -1,0 +1,302 @@
+[
+  {
+    "id": "arcelik", "name": "Arçelik", "cat": "Beyaz Eşya & Elektronik",
+    "score": 78, "grade": "İyi",
+    "scores": { "karbon": 75, "su": 72, "emek": 82, "ambalaj": 80, "seffaflik": 78, "yerellik": 84 },
+    "tags": ["Türk Markası", "ESG Raporu", "Enerji Verimliliği"],
+    "issues": ["E-atık geri dönüşüm kapasitesi artırılabilir"],
+    "alternatives": [],
+    "certifications": ["ISO 14001", "ISO 50001", "Energy Star"],
+    "esgReport": true, "cdpScore": "B", "bist": true
+  },
+  {
+    "id": "koton", "name": "Koton", "cat": "Tekstil & Moda",
+    "score": 41, "grade": "Zayıf",
+    "scores": { "karbon": 38, "su": 35, "emek": 44, "ambalaj": 48, "seffaflik": 40, "yerellik": 42 },
+    "tags": ["Fast Fashion", "Hızlı Üretim"],
+    "issues": ["Su tüketimi çok yüksek", "Emek koşulları belirsiz", "Hızlı moda döngüsü"],
+    "alternatives": ["mavi", "bursali"],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "sutas", "name": "Sütaş", "cat": "Süt & Süt Ürünleri",
+    "score": 69, "grade": "Orta",
+    "scores": { "karbon": 65, "su": 68, "emek": 74, "ambalaj": 64, "seffaflik": 70, "yerellik": 82 },
+    "tags": ["Yerel Marka", "İyi Tarım", "Çiftlik Kaynaklı"],
+    "issues": ["Ambalaj plastik oranı azaltılabilir"],
+    "alternatives": ["yoruk"],
+    "certifications": ["ISO 14001", "İyi Tarım Uygulamaları"],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "mavi", "name": "Mavi", "cat": "Denim & Moda",
+    "score": 67, "grade": "Orta",
+    "scores": { "karbon": 64, "su": 60, "emek": 70, "ambalaj": 68, "seffaflik": 72, "yerellik": 68 },
+    "tags": ["LEED Fabrika", "Better Cotton", "Türk Markası"],
+    "issues": ["Denim üretiminde su tüketimi yüksek"],
+    "alternatives": [],
+    "certifications": ["LEED Gold", "Better Cotton Initiative"],
+    "esgReport": true, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "migros", "name": "Migros", "cat": "Süpermarket & Perakende",
+    "score": 66, "grade": "Orta",
+    "scores": { "karbon": 62, "su": 66, "emek": 70, "ambalaj": 60, "seffaflik": 68, "yerellik": 72 },
+    "tags": ["Türk Perakende", "Yerel Ürün Desteği"],
+    "issues": ["Gıda israfı programı güçlendirilebilir", "Plastik torba kullanımı"],
+    "alternatives": [],
+    "certifications": ["ISO 14001"],
+    "esgReport": true, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "ulker", "name": "Ülker", "cat": "Gıda & İçecek",
+    "score": 54, "grade": "Orta",
+    "scores": { "karbon": 48, "su": 60, "emek": 58, "ambalaj": 44, "seffaflik": 62, "yerellik": 60 },
+    "tags": ["Türk Markası", "BIST Şirketi"],
+    "issues": ["Plastik ambalaj yüksek", "Karbon raporlaması eksik"],
+    "alternatives": [],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "yoruk", "name": "Yörük Süt", "cat": "Süt & Süt Ürünleri",
+    "score": 81, "grade": "İyi",
+    "scores": { "karbon": 80, "su": 78, "emek": 84, "ambalaj": 76, "seffaflik": 82, "yerellik": 92 },
+    "tags": ["Yerel Marka", "Organik Sertifika", "Yüksek Puan"],
+    "issues": ["Dağıtım ağı sınırlı"],
+    "alternatives": [],
+    "certifications": ["Organik Tarım Sertifikası"],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "boyner", "name": "Boyner", "cat": "Perakende & Moda",
+    "score": 63, "grade": "Orta",
+    "scores": { "karbon": 58, "su": 62, "emek": 68, "ambalaj": 60, "seffaflik": 65, "yerellik": 70 },
+    "tags": ["Türk Markası", "Çok Kanallı"],
+    "issues": ["Tedarik zinciri şeffaflığı"],
+    "alternatives": ["mavi"],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "bursali", "name": "Bursalı", "cat": "Tekstil",
+    "score": 71, "grade": "İyi",
+    "scores": { "karbon": 69, "su": 66, "emek": 76, "ambalaj": 72, "seffaflik": 70, "yerellik": 78 },
+    "tags": ["Yerli Üretim", "Türk Markası"],
+    "issues": [],
+    "alternatives": [],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "pinar", "name": "Pınar", "cat": "Süt & Gıda",
+    "score": 66, "grade": "Orta",
+    "scores": { "karbon": 62, "su": 64, "emek": 70, "ambalaj": 62, "seffaflik": 68, "yerellik": 70 },
+    "tags": ["BIST Şirketi", "Türk Markası"],
+    "issues": ["Ambalaj iyileştirilmeli"],
+    "alternatives": ["yoruk"],
+    "certifications": ["ISO 14001"],
+    "esgReport": false, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "dimes", "name": "Dimes", "cat": "Meyve Suyu & İçecek",
+    "score": 68, "grade": "Orta",
+    "scores": { "karbon": 65, "su": 70, "emek": 70, "ambalaj": 64, "seffaflik": 68, "yerellik": 72 },
+    "tags": ["Türk Markası", "Meyve Bahçesi"],
+    "issues": ["Şeker içeriği yüksek ürünler"],
+    "alternatives": [],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "tamek", "name": "Tamek", "cat": "Konserve & Gıda",
+    "score": 65, "grade": "Orta",
+    "scores": { "karbon": 60, "su": 65, "emek": 68, "ambalaj": 62, "seffaflik": 66, "yerellik": 70 },
+    "tags": ["Türk Markası"],
+    "issues": ["Ambalaj modernizasyonu gerekli"],
+    "alternatives": [],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "bim", "name": "BİM", "cat": "Market",
+    "score": 58, "grade": "Orta",
+    "scores": { "karbon": 54, "su": 58, "emek": 62, "ambalaj": 54, "seffaflik": 60, "yerellik": 62 },
+    "tags": ["Geniş Ağ", "Türk Markası"],
+    "issues": ["Sürdürülebilirlik raporu yok"],
+    "alternatives": ["migros"],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "sok", "name": "Şok", "cat": "Market",
+    "score": 52, "grade": "Orta",
+    "scores": { "karbon": 48, "su": 54, "emek": 56, "ambalaj": 50, "seffaflik": 52, "yerellik": 54 },
+    "tags": ["Fiyat Odaklı"],
+    "issues": ["ESG raporlaması yok", "Yerel tedarik düşük"],
+    "alternatives": ["migros"],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "vestel", "name": "Vestel", "cat": "Elektronik & Beyaz Eşya",
+    "score": 69, "grade": "Orta",
+    "scores": { "karbon": 66, "su": 68, "emek": 72, "ambalaj": 68, "seffaflik": 70, "yerellik": 72 },
+    "tags": ["Türk Teknoloji", "BIST"],
+    "issues": ["E-atık hedefleri belirsiz"],
+    "alternatives": ["arcelik"],
+    "certifications": ["ISO 14001"],
+    "esgReport": false, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "eczacibasi", "name": "Eczacıbaşı", "cat": "Sağlık & Yapı",
+    "score": 74, "grade": "İyi",
+    "scores": { "karbon": 72, "su": 74, "emek": 78, "ambalaj": 72, "seffaflik": 76, "yerellik": 74 },
+    "tags": ["ESG Raporu", "BIST100"],
+    "issues": ["Kimyasal atık yönetimi"],
+    "alternatives": [],
+    "certifications": ["ISO 14001", "ISO 45001"],
+    "esgReport": true, "cdpScore": "C", "bist": true
+  },
+  {
+    "id": "tupras", "name": "Tüpraş", "cat": "Enerji & Petrokimya",
+    "score": 44, "grade": "Zayıf",
+    "scores": { "karbon": 30, "su": 50, "emek": 56, "ambalaj": 48, "seffaflik": 54, "yerellik": 56 },
+    "tags": ["BIST30", "Kamu Ortaklığı"],
+    "issues": ["Yüksek karbon emisyonu", "Fosil yakıt bağımlılığı"],
+    "alternatives": [],
+    "certifications": ["ISO 14001"],
+    "esgReport": true, "cdpScore": "D", "bist": true
+  },
+  {
+    "id": "enerjisa", "name": "Enerjisa", "cat": "Enerji & Elektrik",
+    "score": 62, "grade": "Orta",
+    "scores": { "karbon": 58, "su": 62, "emek": 68, "ambalaj": 62, "seffaflik": 64, "yerellik": 62 },
+    "tags": ["Yenilenebilir Hedef"],
+    "issues": ["Kömür santral bağlantısı"],
+    "alternatives": [],
+    "certifications": ["ISO 14001"],
+    "esgReport": true, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "petlas", "name": "Petlas", "cat": "Lastik & Otomotiv",
+    "score": 55, "grade": "Orta",
+    "scores": { "karbon": 50, "su": 56, "emek": 60, "ambalaj": 52, "seffaflik": 56, "yerellik": 60 },
+    "tags": ["Türk Markası"],
+    "issues": ["Geri dönüşüm programı yetersiz"],
+    "alternatives": [],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "ford_otosan", "name": "Ford Otosan", "cat": "Otomotiv",
+    "score": 67, "grade": "Orta",
+    "scores": { "karbon": 62, "su": 66, "emek": 72, "ambalaj": 66, "seffaflik": 68, "yerellik": 70 },
+    "tags": ["EV Geçiş Planı", "BIST"],
+    "issues": ["İçten yanmalı motor üretimi sürüyor"],
+    "alternatives": [],
+    "certifications": ["ISO 14001", "ISO 50001"],
+    "esgReport": true, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "logo", "name": "Logo Yazılım", "cat": "Teknoloji & Yazılım",
+    "score": 79, "grade": "İyi",
+    "scores": { "karbon": 78, "su": 76, "emek": 82, "ambalaj": 80, "seffaflik": 80, "yerellik": 80 },
+    "tags": ["Dijital Ürün", "Düşük Emisyon", "Türk Teknoloji"],
+    "issues": [],
+    "alternatives": [],
+    "certifications": ["ISO 27001"],
+    "esgReport": true, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "anadolu_efes", "name": "Anadolu Efes", "cat": "İçecek",
+    "score": 61, "grade": "Orta",
+    "scores": { "karbon": 58, "su": 62, "emek": 65, "ambalaj": 58, "seffaflik": 62, "yerellik": 62 },
+    "tags": ["BIST Şirketi"],
+    "issues": ["Su yoğun üretim süreci"],
+    "alternatives": [],
+    "certifications": ["ISO 14001"],
+    "esgReport": true, "cdpScore": "C", "bist": true
+  },
+  {
+    "id": "sabanci", "name": "Sabancı Holding", "cat": "Holding",
+    "score": 70, "grade": "İyi",
+    "scores": { "karbon": 66, "su": 70, "emek": 74, "ambalaj": 68, "seffaflik": 74, "yerellik": 70 },
+    "tags": ["ESG Taahhütleri", "BIST30"],
+    "issues": ["Çeşitli sektörlerde karmaşık yapı"],
+    "alternatives": [],
+    "certifications": ["ISO 14001"],
+    "esgReport": true, "cdpScore": "B", "bist": true
+  },
+  {
+    "id": "koc", "name": "Koç Holding", "cat": "Holding",
+    "score": 71, "grade": "İyi",
+    "scores": { "karbon": 68, "su": 70, "emek": 76, "ambalaj": 68, "seffaflik": 74, "yerellik": 72 },
+    "tags": ["Sürdürülebilirlik Raporu", "BIST30"],
+    "issues": ["Enerji yoğun bağlı şirketler"],
+    "alternatives": [],
+    "certifications": ["ISO 14001", "ISO 50001"],
+    "esgReport": true, "cdpScore": "B", "bist": true
+  },
+  {
+    "id": "hepsiburada", "name": "Hepsiburada", "cat": "E-Ticaret",
+    "score": 59, "grade": "Orta",
+    "scores": { "karbon": 54, "su": 58, "emek": 64, "ambalaj": 54, "seffaflik": 62, "yerellik": 64 },
+    "tags": ["Türk E-Ticaret"],
+    "issues": ["Ambalaj israfı", "Kargo emisyonları"],
+    "alternatives": [],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "trendyol", "name": "Trendyol", "cat": "E-Ticaret",
+    "score": 56, "grade": "Orta",
+    "scores": { "karbon": 50, "su": 56, "emek": 62, "ambalaj": 50, "seffaflik": 58, "yerellik": 62 },
+    "tags": ["En Büyük E-Ticaret"],
+    "issues": ["Fast fashion teşviki", "Karbon raporlaması yok"],
+    "alternatives": ["hepsiburada"],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "turktelekom", "name": "Türk Telekom", "cat": "Telekomünikasyon",
+    "score": 68, "grade": "Orta",
+    "scores": { "karbon": 64, "su": 66, "emek": 72, "ambalaj": 66, "seffaflik": 70, "yerellik": 72 },
+    "tags": ["BIST30", "Dijital Altyapı"],
+    "issues": ["E-atık yönetimi geliştirilmeli"],
+    "alternatives": [],
+    "certifications": ["ISO 14001"],
+    "esgReport": true, "cdpScore": null, "bist": true
+  },
+  {
+    "id": "turkcell", "name": "Turkcell", "cat": "Telekomünikasyon",
+    "score": 72, "grade": "İyi",
+    "scores": { "karbon": 70, "su": 70, "emek": 76, "ambalaj": 70, "seffaflik": 74, "yerellik": 74 },
+    "tags": ["ESG Raporu", "Yeşil Veri Merkezi"],
+    "issues": ["Cihaz geri dönüşüm programı genişletilmeli"],
+    "alternatives": [],
+    "certifications": ["ISO 14001", "ISO 27001"],
+    "esgReport": true, "cdpScore": "C", "bist": true
+  },
+  {
+    "id": "doluca", "name": "Doluca", "cat": "İçecek & Şarap",
+    "score": 73, "grade": "İyi",
+    "scores": { "karbon": 70, "su": 74, "emek": 76, "ambalaj": 70, "seffaflik": 74, "yerellik": 78 },
+    "tags": ["Yerel Üretim", "Bağ Yönetimi", "Türk Markası"],
+    "issues": [],
+    "alternatives": [],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": false
+  },
+  {
+    "id": "vakko", "name": "Vakko", "cat": "Lüks Moda",
+    "score": 72, "grade": "İyi",
+    "scores": { "karbon": 70, "su": 68, "emek": 78, "ambalaj": 72, "seffaflik": 72, "yerellik": 74 },
+    "tags": ["Türk Lüks", "Uzun Ömür", "El İşçiliği"],
+    "issues": ["Tedarik zinciri şeffaflığı artırılabilir"],
+    "alternatives": [],
+    "certifications": [],
+    "esgReport": false, "cdpScore": null, "bist": false
+  }
+]

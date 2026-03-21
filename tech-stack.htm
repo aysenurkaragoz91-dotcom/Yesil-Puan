@@ -1,0 +1,212 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=Windows-1254">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+@font-face
+	{font-family:"Segoe UI Emoji";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoChpDefault
+	{font-size:11.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=TR style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>## <span style='font-family:"Segoe UI Emoji",sans-serif'>&#128736;&#65039;</span>
+Önerilen Teknoloji Yığını: &quot;The Speed Stack&quot;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>| Teknoloji | Görevi | Neden Seçtik? |</p>
+
+<p class=MsoNormal>| :--- | :--- | :--- |</p>
+
+<p class=MsoNormal>| **Next.js** | Framework (İskelet) | Hem ön yüzü (HTML) hem
+arka yüzü (API) tek klasörde halleder. Kurulumu saniyeler sürer. |</p>
+
+<p class=MsoNormal>| **Tailwind CSS** | Tasarım (Stil) | CSS dosyalarıyla
+boğuşmadan, HTML içine kelimeler yazarak profesyonel tasarım yapmanı sağlar. |</p>
+
+<p class=MsoNormal>| **Gemini API** | Yapay Zeka (Beyin) | Markaları analiz
+eder, puan verir ve yerel alternatifleri akıllıca eşleştirir. |</p>
+
+<p class=MsoNormal>| **Vercel** | Yayınlama (Hosting) | Kodunu tek tıkla tüm
+dünyanın erişebileceği bir web sitesine dönüştürür (Ücretsiz). |</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>### <span style='font-family:"Segoe UI Emoji",sans-serif'>&#128161;</span>
+Neden Bu Seçimler?</p>
+
+<p class=MsoNormal>Başlangıç seviyesinde ayrı bir &quot;Server&quot; (Arka yüz)
+kurmakla vakit kaybetmemelisin. Next.js, Gemini API anahtarını güvenli bir
+şekilde saklayabileceğin gizli bir oda (API Routes) sunar. Böylece anahtarın
+başkalarının eline geçmez.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>---</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>## <span style='font-family:"Segoe UI Emoji",sans-serif'>&#128640;</span>
+Kurulum Adımları (Sıfırdan Başla)</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Bir kıdemli developer gibi terminalini aç ve şu adımları
+takip et:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>### 1. Projeyi Oluştur</p>
+
+<p class=MsoNormal>Terminaline (veya VS Code terminaline) şu komutu yaz:</p>
+
+<p class=MsoNormal>```bash</p>
+
+<p class=MsoNormal>npx create-next-app@latest sustaina-track</p>
+
+<p class=MsoNormal>```</p>
+
+<p class=MsoNormal>*Sana sorulan sorularda `TypeScript: No`, `Tailwind CSS:
+Yes`, `App Router: Yes` seçeneklerini seç.*</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>### 2. Proje Klasörüne Gir</p>
+
+<p class=MsoNormal>```bash</p>
+
+<p class=MsoNormal>cd sustaina-track</p>
+
+<p class=MsoNormal>```</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>### 3. Gemini SDK'sını Yükle</p>
+
+<p class=MsoNormal>Google'ın yapay zekasını projenle konuşturmak için şu paketi
+ekle:</p>
+
+<p class=MsoNormal>```bash</p>
+
+<p class=MsoNormal>npm install @google/generative-ai</p>
+
+<p class=MsoNormal>```</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>### 4. API Anahtarını Güvenceye Al</p>
+
+<p class=MsoNormal>Projenin ana dizininde `.env.local` isimli bir dosya oluştur
+ve içine Google AI Studio'dan aldığın anahtarı yapıştır:</p>
+
+<p class=MsoNormal>```text</p>
+
+<p class=MsoNormal>GEMINI_API_KEY=senin_api_anahtarin_buraya</p>
+
+<p class=MsoNormal>```</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>---</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>## <span style='font-family:"Segoe UI Emoji",sans-serif'>&#129504;</span>
+Gemini API'yi Uygulamana Bağlama (İlk Kodun)</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>`app/api/chat/route.js` dosyası oluştur ve içine bu mantığı
+koy. Bu kod, kullanıcının yazdığı markayı Gemini'ye gönderir ve ondan puan +
+yerel alternatif ister:</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>```javascript</p>
+
+<p class=MsoNormal>import { GoogleGenerativeAI } from
+&quot;@google/generative-ai&quot;;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>export async function POST(req) {</p>
+
+<p class=MsoNormal>  const { brand } = await req.json();</p>
+
+<p class=MsoNormal>  const genAI = new
+GoogleGenerativeAI(process.env.GEMINI_API_KEY);</p>
+
+<p class=MsoNormal>  const model = genAI.getGenerativeModel({ model:
+&quot;gemini-3-flash&quot; });</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  const prompt = `Kullanıcı şu markayı arattı: ${brand}. </p>
+
+<p class=MsoNormal>  Bu markaya 100 üzerinden sürdürülebilirlik puanı ver. </p>
+
+<p class=MsoNormal>  Eğer puanı 50'den düşükse, Türkiye'den yerel ve daha
+çevreci bir alternatif marka öner. </p>
+
+<p class=MsoNormal>  Yanıtı şu formatta ver: Puan: [Puan], Neden: [Kısa
+açıklama], Alternatif: [Marka Adı].`;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>  const result = await model.generateContent(prompt);</p>
+
+<p class=MsoNormal>  return Response.json({ text: result.response.text() });</p>
+
+<p class=MsoNormal>}</p>
+
+<p class=MsoNormal>```</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>---</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

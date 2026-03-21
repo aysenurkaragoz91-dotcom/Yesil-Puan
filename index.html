@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YesilPuan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,300&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<main class="container">
+
+  <header class="header-panel">
+    <div class="header-wordmark">Yesil<span>Puan</span></div>
+    <p class="header-tagline">Türkiye odakli surdurulebilir marka skorlama asistani</p>
+  </header>
+
+  <section class="panel">
+    <h2>Marka Sorgula</h2>
+    <div class="search-row">
+      <input id="searchInput" type="text" placeholder="Orn: Koton, Arcelik, Trendyol">
+      <button id="searchBtn">Sorgula</button>
+    </div>
+    <div id="quickList"></div>
+    <p id="searchMessage" class="muted"></p>
+  </section>
+
+  <section class="panel">
+    <h2>Profilim</h2>
+    <div id="profile"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Sonuc</h2>
+    <div id="result">
+      <div class="empty-state"><span class="leaf">🌿</span>Bir marka secip sorguladiginda kart burada gosterilecek.</div>
+    </div>
+  </section>
+</main>
+
+<div class="modal-overlay" id="profileModal">
+  <div class="modal">
+    <h3>Profili Duzenle</h3>
+    <label>Kullanici Adi</label>
+    <input type="text" id="editName" placeholder="Adinizi girin">
+    <label>Avatar Sec</label>
+    <div class="avatar-picker" id="avatarPicker">
+      <div class="avatar-opt selected" data-emoji="🌿">🌿</div>
+      <div class="avatar-opt" data-emoji="🌱">🌱</div>
+      <div class="avatar-opt" data-emoji="🍃">🍃</div>
+      <div class="avatar-opt" data-emoji="🌍">🌍</div>
+      <div class="avatar-opt" data-emoji="♻️">♻️</div>
+      <div class="avatar-opt" data-emoji="🦋">🦋</div>
+      <div class="avatar-opt" data-emoji="🐢">🐢</div>
+      <div class="avatar-opt" data-emoji="🌸">🌸</div>
+      <label class="upload-label" title="Fotograf yukle">📷<input type="file" accept="image/*" id="avatarUpload" style="display:none"></label>
+    </div>
+    <div class="modal-btns">
+      <button class="ghost" id="cancelEdit">Iptal</button>
+      <button id="saveEdit">Kaydet</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="shareModal">
+  <div class="modal share-modal-content">
+    <h3>Rozeti Paylas</h3>
+    <div class="share-preview" id="sharePreview">
+      <span class="share-badge-emoji" id="shareBadgeEmoji"></span>
+      <div class="share-badge-name" id="shareBadgeName"></div>
+      <div class="share-badge-sub">YesilPuan rozeti kazanildi</div>
+      <div class="share-badge-user" id="shareBadgeUser"></div>
+    </div>
+    <div class="share-btns">
+      <button class="share-btn twitter" id="shareTwitter">X Twitter</button>
+      <button class="share-btn whatsapp" id="shareWhatsApp">WhatsApp</button>
+      <button class="share-btn copy" id="shareCopy">Kopyala</button>
+    </div>
+    <div style="margin-top:14px;text-align:right">
+      <button class="ghost" id="closeShare" style="padding:7px 14px;font-size:.85rem">Kapat</button>
+    </div>
+  </div>
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
