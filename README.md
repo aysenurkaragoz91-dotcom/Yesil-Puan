@@ -1,5 +1,4 @@
-# 🌿 SustainaTrack
-
+# 🌿 Yesilpuan
 ## 📋 Problem
 Günümüzde tüketiciler, satın aldıkları markaların çevresel etkileri ve etik üretim standartları hakkında şeffaf bilgiye ulaşmakta zorlanıyor. Mevcut platformlar statik bir ansiklopedi gibi çalıştığı için kullanıcıyı sürdürülebilir alışkanlıklar edinmeye teşvik etmiyor ve özellikle **Türkiye pazarındaki yerel markaların** verileri bu platformlarda eksik kalıyor.
 
