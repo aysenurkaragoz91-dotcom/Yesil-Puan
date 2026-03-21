@@ -17,7 +17,7 @@ SustainaTrack, sürdürülebilirliği bir "oyun" haline getiren interaktif bir p
 * **Frontend:** React.js / Next.js (Hızlı ve SEO dostu arayüz)
 * **Styling:** Tailwind CSS (Modern ve duyarlı tasarım)
 * **AI Engine:** Claude API (Akıllı marka analizi ve yerel öneri motoru)
-* **Deployment:** Netlify / Lovable (Kesintisiz canlı yayın)
+* **Deployment:** Netlify (Kesintisiz canlı yayın)
 
 ## 🚀 Nasıl Çalıştırılır?
 
