@@ -16,7 +16,7 @@ SustainaTrack, sürdürülebilirliği bir "oyun" haline getiren interaktif bir p
 ## 🛠️ Kullanılan Teknolojiler
 * **Frontend:** React.js / Next.js (Hızlı ve SEO dostu arayüz)
 * **Styling:** Tailwind CSS (Modern ve duyarlı tasarım)
-* **AI Engine:** Google Gemini API (Akıllı marka analizi ve yerel öneri motoru)
+* **AI Engine:** Claude API (Akıllı marka analizi ve yerel öneri motoru)
 * **Deployment:** Vercel / Lovable (Kesintisiz canlı yayın)
 
 ## 🚀 Nasıl Çalıştırılır?
