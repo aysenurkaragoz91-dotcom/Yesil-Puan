@@ -1,84 +1,49 @@
-# 🌿 YeşilPuan — Türkiye'nin Sürdürülebilirlik Puanlama Platformu
+# 🌿 SustainaTrack
 
-## Proje Açıklaması
+## 📋 Problem
+Günümüzde tüketiciler, satın aldıkları markaların çevresel etkileri ve etik üretim standartları hakkında şeffaf bilgiye ulaşmakta zorlanıyor. Mevcut platformlar statik bir ansiklopedi gibi çalıştığı için kullanıcıyı sürdürülebilir alışkanlıklar edinmeye teşvik etmiyor ve özellikle **Türkiye pazarındaki yerel markaların** verileri bu platformlarda eksik kalıyor.
 
-**YeşilPuan**, kullanıcıların Türkiye'deki markaların sürdürülebilirlik skorlarını anında sorgulayabildiği, düşük puanlı markalar yerine daha iyi alternatifleri keşfedebildiği ve oyunlaştırma mekanizmaları (rozetler, sıralama, XP sistemi) sayesinde sürdürülebilir alışveriş alışkanlıkları geliştirebildiği mobil öncelikli bir web uygulamasıdır.
+## ✨ Çözüm
+SustainaTrack, sürdürülebilirliği bir "oyun" haline getiren interaktif bir platformdur. Kullanıcılar markaları sorguladığında 0-100 arası bir puan alır. 
+* **AI'nın Rolü:** **Gemini 1.5 Flash API**, kullanıcı bir marka arattığında markanın güncel sürdürülebilirlik verilerini analiz eder, puanlar ve eğer puan düşükse coğrafi olarak en yakın, yüksek puanlı **yerel alternatifi** akıllıca eşleştirerek kullanıcıya sunar.
+* **Oyunlaştırma:** Kullanıcılar daha iyi seçimler yaptıkça XP kazanır, "Plastik Savaşçısı" gibi rozetler toplar ve arkadaşlarıyla yarışır.
 
-## Problem
 
-Mevcut sürdürülebilirlik platformları (Good On You, EcoChain vb.) Türkiye'deki yerel markaları kapsamıyor. Kullanıcılar yerel bir süt markasının, tekstil firmasının veya gıda şirketinin çevresel ve sosyal sorumluluklarını kolayca öğrenemiyor. Ayrıca bu platformlar "ansiklopedi" gibi çalışır: kullanıcı giriyor, bakıyor, çıkıyor. Sürdürülebilir tüketimi bir yaşam tarzına dönüştüren bir motivasyon mekanizması yok.
 
-## Çözüm
+## 🔗 Linkler
+* **Canlı Demo Yayın Linki:** [https://sustainatrack.lovable.app](https://sustainatrack.lovable.app)
+* **Demo Video:** [https://loom.com/share/your-video-id](https://loom.com/share/your-video-id)
 
-YeşilPuan şu özellikleri sunar:
-- 🇹🇷 **30+ Türk markası veritabanı** — Arçelik'ten Trendyol'a, Yörük Süt'ten Koç Holding'e
-- 🔄 **Akıllı alternatif önerileri** — Düşük puanlı markalar için yüksek puanlı rakipler
-- 🏅 **Rozet sistemi + sosyal paylaşım** — Instagram, X, WhatsApp, LinkedIn paylaşımı
-- 🏆 **Arkadaş sıralaması** — Duolingo benzeri rekabetçi motivasyon
-- 👤 **Kişiselleştirilmiş profil** — Ad, biyografi, 15 emoji avatar seçeneği
-- 📊 **6 boyutlu analiz** — Karbon, Su, Emek, Ambalaj, Şeffaflık, Yerellik
+## 🛠️ Kullanılan Teknolojiler
+* **Frontend:** React.js / Next.js (Hızlı ve SEO dostu arayüz)
+* **Styling:** Tailwind CSS (Modern ve duyarlı tasarım)
+* **AI Engine:** Google Gemini API (Akıllı marka analizi ve yerel öneri motoru)
+* **Deployment:** Vercel / Lovable (Kesintisiz canlı yayın)
 
-## Nasıl Çalıştırılır
+## 🚀 Nasıl Çalıştırılır?
 
-### Hızlı Başlangıç (Statik Versiyon)
-```bash
-git clone https://github.com/yesilpuan/platform.git
-cd platform
-open features/index.html   # macOS
-# veya tarayıcıda features/index.html dosyasını aç
-```
+Bu projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
-### Geliştirme Ortamı
-```bash
-npm install
-npm run dev
-# → http://localhost:3000
-```
+1. **Depoyu Klonlayın:**
+   ```bash
+   git clone https://github.com/kullaniciadin/sustainatrack.git
+   cd sustainatrack
+   ```
 
-### Canlı Deploy (Netlify)
-```bash
-npm run build
-netlify deploy --prod --dir=out
-```
+2. **Bağımlılıkları Yükleyin:**
+   ```bash
+   npm install
+   ```
 
-## Yayın Linki
+3. **API Anahtarını Ayarlayın:**
+   Proje kök dizininde bir `.env.local` dosyası oluşturun ve Gemini API anahtarınızı ekleyin:
+   ```text
+   NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here
+   ```
 
-🌐 **Canlı Demo:** [https://yesilpuan.netlify.app](https://yesilpuan.netlify.app)
+4. **Uygulamayı Başlatın:**
+   ```bash
+   npm run dev
+   ```
+   Tarayıcınızda `http://localhost:3000` adresine giderek uygulamayı görebilirsiniz.
 
-## Demo Video
-
-▶️ **Loom:** [https://loom.com/share/yesilpuan-demo-v2](https://loom.com/share/yesilpuan-demo-v2)
-
-## Proje Yapısı
-
-```
-yesilpuan/
-├── README.md                  ← Bu dosya
-├── idea.md                    ← Problem tanımı ve vizyon
-├── user-flow.md               ← Kullanıcı akışı + sayfa haritası
-├── tech-stack.md              ← Teknoloji seçimleri ve gerekçe
-└── features/
-    ├── index.html             ← Ana uygulama (tek dosya, çalışır halde)
-    ├── brands.json            ← 30 Türk markası veritabanı
-    ├── scoring.js             ← Puanlama algoritması (6 boyut)
-    └── gamification.js        ← Rozet + paylaşım + sıralama sistemi
-```
-
-## v2 Özellikleri
-
-| Özellik | Açıklama |
-|---|---|
-| Marka sorgulama | 30 Türk markası, arama kutusu + liste |
-| 6 boyutlu puan | Karbon, Su, Emek, Ambalaj, Şeffaflık, Yerellik |
-| Alternatif öneri | Düşük puanlı markaya otomatik öneri |
-| Profil düzenleme | Ad, biyografi, 15 emoji avatar seçeneği |
-| Rozet sistemi | 8 rozet, XP bar, seviye sistemi |
-| Sosyal paylaşım | Instagram, X, WhatsApp, LinkedIn, link kopyala |
-| Arkadaş sıralaması | 10 kişilik haftalık liderboard |
-| Puan sistemi | Her sorgu +10 XP, rozet açılınca +100–500 XP |
-
-## Katkıda Bulunma
-
-Türkiye'deki bir markayı eklemek veya güncellemek için `features/brands.json` dosyasını düzenleyip pull request gönder. Kaynakları belirt (CSR raporu, CDP skoru vb.).
-
-İletişim: [veri@yesilpuan.app](mailto:veri@yesilpuan.app)
