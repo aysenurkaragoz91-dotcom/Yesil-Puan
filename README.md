@@ -3,7 +3,7 @@
 Günümüzde tüketiciler, satın aldıkları markaların çevresel etkileri ve etik üretim standartları hakkında şeffaf bilgiye ulaşmakta zorlanıyor. Mevcut platformlar statik bir ansiklopedi gibi çalıştığı için kullanıcıyı sürdürülebilir alışkanlıklar edinmeye teşvik etmiyor ve özellikle **Türkiye pazarındaki yerel markaların** verileri bu platformlarda eksik kalıyor.
 
 ## ✨ Çözüm
-SustainaTrack, sürdürülebilirliği bir "oyun" haline getiren interaktif bir platformdur. Kullanıcılar markaları sorguladığında 0-100 arası bir puan alır. 
+Yesilpuan, sürdürülebilirliği bir "oyun" haline getiren interaktif bir platformdur. Kullanıcılar markaları sorguladığında 0-100 arası bir puan alır. 
 * **AI'nın Rolü:** **Gemini 1.5 Flash API**, kullanıcı bir marka arattığında markanın güncel sürdürülebilirlik verilerini analiz eder, puanlar ve eğer puan düşükse coğrafi olarak en yakın, yüksek puanlı **yerel alternatifi** akıllıca eşleştirerek kullanıcıya sunar.
 * **Oyunlaştırma:** Kullanıcılar daha iyi seçimler yaptıkça XP kazanır, "Plastik Savaşçısı" gibi rozetler toplar ve arkadaşlarıyla yarışır.
 
