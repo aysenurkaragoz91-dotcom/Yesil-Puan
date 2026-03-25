@@ -10,7 +10,7 @@ SustainaTrack, sürdürülebilirliği bir "oyun" haline getiren interaktif bir p
 
 
 ## 🔗 Linkler
-* **Canlı Demo Yayın Linki:** [https://sustainatrack.lovable.app](https://sustainatrack.lovable.app)
+* **Canlı Demo Yayın Linki:** [https://sustainatrack.netlify.app](https://yesilpuann.netlify.app/)
 * **Demo Video:** [https://loom.com/share/your-video-id](https://youtu.be/DpP0UxdyFww?si=T1Da-teEuJPDX7r-)
 
 ## 🛠️ Kullanılan Teknolojiler
